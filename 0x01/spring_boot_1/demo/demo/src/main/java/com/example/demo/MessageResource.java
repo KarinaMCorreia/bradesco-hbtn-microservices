@@ -11,14 +11,15 @@ public class MessageResource {
 
     @GetMapping("/simpleMessageWelcome")
     public String simpleMessageWelcome() {
-        return "BEM VINDO A AULA DE MICROSSERVIÇO USANDO SPRING BOOT !!!";
+        return "BEM VINDO A AULA DE MICROSERVIÇO USANDO SPRING BOOT !!!";
     }
 
     @GetMapping("/login")
-    public String login(@RequestParam(required = false) String user,
-                        @RequestParam(required = false) String password) {
+    public String login(
+            @RequestParam(required = false) String user,
+            @RequestParam(required = false) String password) {
 
-        if (user == null || password == null || user.isBlank() || password.isBlank()) {
+        if (user == null || user.isBlank() || password == null || password.isBlank()) {
             return "USUÁRIO E SENHA NÃO INFORMADOS";
         }
 
@@ -26,6 +27,6 @@ public class MessageResource {
             return "USUÁRIO E SENHA INVÁLIDOS";
         }
 
-        return "LOGIN EFETUADO COM SUCESSO !!!";
+        return "LOGIN EFETUADO COM SUCESSO";
     }
 }
