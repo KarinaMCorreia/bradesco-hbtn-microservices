@@ -15,11 +15,10 @@ public class MessageResource {
     }
 
     @GetMapping("/login")
-    public String login(
-            @RequestParam(required = false) String user,
-            @RequestParam(required = false) String password) {
+    public String login(@RequestParam(required = false) String user,
+                        @RequestParam(required = false) String password) {
 
-        if (user == null || user.isBlank() || password == null || password.isBlank()) {
+        if (user == null || password == null || user.isBlank() || password.isBlank()) {
             return "USUÁRIO E SENHA NÃO INFORMADOS";
         }
 
