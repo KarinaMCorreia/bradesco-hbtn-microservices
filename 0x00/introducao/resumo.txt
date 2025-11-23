@@ -1,11 +1,9 @@
-Microsserviços são um estilo de arquitetura em que a aplicação é dividida em pequenos serviços independentes, cada um responsável por uma funcionalidade específica. Cada serviço possui seu próprio ciclo de vida, podendo ser desenvolvido, testado e implantado de forma autônoma. Eles se comunicam principalmente por HTTP (APIs REST), mensagens ou eventos.
+Microsserviços são uma abordagem arquitetural em que a aplicação é dividida em pequenos serviços autônomos, cada um responsável por uma capacidade específica do negócio. Diferente da arquitetura monolítica, onde toda a aplicação funciona como um único bloco, os microsserviços permitem que cada parte seja desenvolvida, atualizada e implantada de forma independente. Enquanto o monolito concentra todas as funcionalidades em um único ambiente, dificultando escalabilidade e manutenção, os microsserviços distribuem responsabilidades, oferecendo maior flexibilidade e agilidade.
 
-Na arquitetura monolítica, toda a aplicação funciona como um único bloco, reunindo interface, regras de negócio e acesso a dados em um único projeto. Esse modelo é simples no início, porém difícil de escalar e manter conforme o sistema cresce, já que qualquer falha ou alteração impacta toda a aplicação. Já na arquitetura de microsserviços, a aplicação é composta por vários serviços menores, cada um com sua lógica própria. Isso facilita a evolução, reduz o impacto de falhas e permite deploys independentes.
+Entre os principais benefícios dessa arquitetura estão: escalabilidade, já que cada serviço pode crescer conforme sua demanda; heterogeneidade tecnológica, permitindo usar tecnologias diferentes em cada serviço de acordo com sua necessidade; e resiliência, pois uma falha pode ser isolada sem comprometer toda a aplicação. Além disso, microsserviços favorecem implantação contínua, substituição de partes do sistema com menor risco e manutenção mais eficiente.
 
-Entre os principais benefícios dos microsserviços estão: 
-escalabilidade, pois cada serviço cresce conforme a demanda; resiliência, já que uma falha não derruba toda a aplicação; e agilidade no desenvolvimento, permitindo que equipes trabalhem de forma paralela.
+Os tipos de comunicação entre microsserviços incluem comunicação síncrona via HTTP, geralmente usando APIs REST, e comunicação assíncrona por mensagens ou eventos, onde os serviços trocam informações sem depender de resposta imediata. Esses modelos permitem integração flexível e mantêm baixo acoplamento entre os serviços.
 
-A comunicação entre microsserviços pode ser síncrona, usando HTTP, ou assíncrona, por mensagens e eventos, oferecendo flexibilidade e baixo acoplamento entre os serviços.
 
 
 
