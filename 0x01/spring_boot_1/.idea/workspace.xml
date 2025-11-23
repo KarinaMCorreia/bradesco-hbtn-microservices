@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb057d1a-b551-4dbc-b89c-55b907da0f5a" name="Changes" comment="feat: adicionar resultados dos endpoints simpleMessageWelcome e login gerados via Postman" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KarinaMCorreia"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KarinaMCorreia/bradesco-hbtn-microservices.git",
+    "accountId": "1df30da5-1584-452e-adc6-f718ccdab981"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="35tRIWnWEtjMXHvbhQATkVcUovW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoApplication.executor": "Run",
+    "Maven.demo [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\OneDrive\Projeto_bradesco\bradesco-hbtn-microservices\0x01\spring_boot_1" />
+      <recent name="C:\Users\Public\OneDrive\Projeto_bradesco\bradesco-hbtn-microservices\0x01\spring_boot_1\demo\demo" />
+      <recent name="C:\Users\Public\OneDrive\Projeto_bradesco\bradesco-hbtn-microservices\0x01\spring_boot_1\demo\src\main\java\com\example\demo" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb057d1a-b551-4dbc-b89c-55b907da0f5a" name="Changes" comment="" />
+      <created>1763927301861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763927301861</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: adicionar resultados dos endpoints simpleMessageWelcome e login gerados via Postman">
+      <option name="closed" value="true" />
+      <created>1763927827721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763927827721</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: adicionar resultados dos endpoints simpleMessageWelcome e login gerados via Postman">
+      <option name="closed" value="true" />
+      <created>1763928218897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763928218897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: adicionar resultados dos endpoints simpleMessageWelcome e login gerados via Postman">
+      <option name="closed" value="true" />
+      <created>1763928429806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763928429806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: adicionar resultados dos endpoints simpleMessageWelcome e login gerados via Postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionar resultados dos endpoints simpleMessageWelcome e login gerados via Postman" />
+  </component>
+</project>
