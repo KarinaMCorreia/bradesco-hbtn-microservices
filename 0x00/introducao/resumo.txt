@@ -1,8 +1,9 @@
-Microsserviços são uma abordagem arquitetural em que a aplicação é dividida em pequenos serviços independentes, distribuídos e fracamente acoplados. Cada serviço é responsável por uma parte específica do domínio e pode ser desenvolvido, implantado e escalado de forma autônoma.
+Microsserviços são uma arquitetura onde a aplicação é dividida em pequenos serviços independentes, distribuídos e com baixo acoplamento. Cada serviço executa uma funcionalidade específica e pode ser desenvolvido, implantado e escalado separadamente.
 
-Na arquitetura monolítica, toda a aplicação é construída como um único bloco, com todas as funcionalidades reunidas e, em geral, um único banco de dados. Já na arquitetura de microsserviços, a aplicação é composta por vários serviços menores, cada um com sua própria lógica, podendo ter banco de dados e ciclo de vida independentes. Isso reduz o impacto de mudanças e falhas.
+Na arquitetura monolítica, toda a aplicação funciona como um único bloco, com todas as funcionalidades integradas e um único ponto de falha. Já na arquitetura de microsserviços, a aplicação é formada por vários serviços menores, cada um com seu próprio ciclo de vida. Essa divisão facilita a manutenção e a evolução da aplicação.
 
-Entre os principais benefícios dos microsserviços estão: maior escalabilidade, pois cada serviço pode crescer conforme a demanda; maior resiliência, já que a queda de um serviço não interrompe toda a aplicação; e maior agilidade no desenvolvimento, permitindo que equipes trabalhem em serviços diferentes ao mesmo tempo.
+Entre os principais benefícios dos microsserviços estão: escalabilidade, pois cada serviço pode crescer conforme a demanda; resiliência, já que uma falha não afeta o sistema inteiro; e agilidade no desenvolvimento, permitindo que equipes trabalhem em serviços diferentes ao mesmo tempo.
 
-A comunicação entre microsserviços pode ocorrer por HTTP (geralmente usando APIs REST), por troca de mensagens em filas ou brokers, e por comunicação orientada a eventos, o que favorece o desacoplamento entre os serviços.
+Os microsserviços podem se comunicar de diferentes formas, como comunicação por HTTP usando APIs REST, comunicação por mensagens e comunicação orientada a eventos. Isso permite que os serviços troquem informações de maneira eficiente, seja de forma síncrona ou assíncrona.
+
 
