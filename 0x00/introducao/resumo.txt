@@ -1,7 +1,7 @@
-Microsserviços são uma abordagem arquitetural que organiza uma aplicação em pequenos serviços independentes, distribuídos e fracamente acoplados. Cada serviço é responsável por uma parte específica do sistema e pode ser criado, escalado e implantado de forma autônoma.
+Microsservicos sao uma abordagem arquitetural onde a aplicacao e dividida em pequenos servicos independentes, fracamente acoplados e distribuidos. Cada servico executa uma parte especifica do sistema.
 
-Na arquitetura monolítica, toda a aplicação é construída como um único bloco, reunindo todas as funcionalidades em um único pacote, normalmente usando apenas um banco de dados. Já a arquitetura de microsserviços divide a aplicação em vários serviços menores, cada um com seu próprio banco de dados e lógica independente. Isso reduz o impacto de falhas e facilita a evolução da solução.
+Na arquitetura monolitica toda a aplicacao funciona como um unico bloco usando um unico banco de dados. Na arquitetura de microsservicos a aplicacao e separada em varios servicos menores, cada um com sua logica, banco de dados e implantacao independente.
 
-Entre os principais benefícios de microsserviços estão: maior escalabilidade, permitindo que cada serviço cresça de forma independente; maior resiliência, já que uma falha não derruba toda a aplicação; e maior agilidade no desenvolvimento, pois equipes podem trabalhar em serviços diferentes simultaneamente.
+Os beneficios de microsservicos incluem maior escalabilidade, pois cada servico pode crescer de forma autonoma; maior resiliencia, porque uma falha nao interrompe toda a aplicacao; e maior agilidade de desenvolvimento, permitindo que equipes criem funcionalidades de forma independente.
 
-As formas de comunicação entre microsserviços incluem comunicação via HTTP (REST), comunicação por mensagens e comunicação orientada a eventos, permitindo integração eficiente e desacoplada entre os serviços.
+A comunicacao entre microsservicos pode ocorrer por HTTP usando REST, por troca de mensagens ou por comunicacao orientada a eventos.
