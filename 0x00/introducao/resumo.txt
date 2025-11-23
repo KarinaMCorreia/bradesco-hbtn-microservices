@@ -1,7 +1,8 @@
-Microsservicos sao uma abordagem arquitetural onde a aplicacao e dividida em pequenos servicos independentes, fracamente acoplados e distribuidos. Cada servico executa uma parte especifica do sistema.
+Microsserviços são uma abordagem arquitetural em que a aplicação é dividida em pequenos serviços independentes, distribuídos e fracamente acoplados. Cada serviço é responsável por uma parte específica do domínio e pode ser desenvolvido, implantado e escalado de forma autônoma.
 
-Na arquitetura monolitica toda a aplicacao funciona como um unico bloco usando um unico banco de dados. Na arquitetura de microsservicos a aplicacao e separada em varios servicos menores, cada um com sua logica, banco de dados e implantacao independente.
+Na arquitetura monolítica, toda a aplicação é construída como um único bloco, com todas as funcionalidades reunidas e, em geral, um único banco de dados. Já na arquitetura de microsserviços, a aplicação é composta por vários serviços menores, cada um com sua própria lógica, podendo ter banco de dados e ciclo de vida independentes. Isso reduz o impacto de mudanças e falhas.
 
-Os beneficios de microsservicos incluem maior escalabilidade, pois cada servico pode crescer de forma autonoma; maior resiliencia, porque uma falha nao interrompe toda a aplicacao; e maior agilidade de desenvolvimento, permitindo que equipes criem funcionalidades de forma independente.
+Entre os principais benefícios dos microsserviços estão: maior escalabilidade, pois cada serviço pode crescer conforme a demanda; maior resiliência, já que a queda de um serviço não interrompe toda a aplicação; e maior agilidade no desenvolvimento, permitindo que equipes trabalhem em serviços diferentes ao mesmo tempo.
 
-A comunicacao entre microsservicos pode ocorrer por HTTP usando REST, por troca de mensagens ou por comunicacao orientada a eventos.
+A comunicação entre microsserviços pode ocorrer por HTTP (geralmente usando APIs REST), por troca de mensagens em filas ou brokers, e por comunicação orientada a eventos, o que favorece o desacoplamento entre os serviços.
+
